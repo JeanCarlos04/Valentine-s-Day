@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Pixelify Sans";
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1px #ffffff;
+  font-weight: 900;
+}
+
+.stroke-chooseCharacter-text {
+  -webkit-text-stroke: 1px #929292;
+  font-weight: 900;
+}

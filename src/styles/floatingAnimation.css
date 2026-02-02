@@ -1,0 +1,115 @@
+.floatingAnimation {
+  animation: floating 1.2s ease-in-out both infinite alternate;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.MoveForwardAnimation {
+  animation: moveForward 0.5s ease-in-out both infinite alternate;
+}
+
+@keyframes moveForward {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.sidwwaysAnimation {
+  animation: sidewaysAnimation 0.5s ease-in-out both infinite alternate;
+}
+
+@keyframes sidewaysAnimation {
+  0% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.movingAnimation {
+  animation: rotateAnimation 0.3s both ease-in-out alternate infinite;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    rotate: 10deg;
+  }
+
+  100% {
+    rotate: -10deg;
+  }
+}
+
+.hideScenery {
+  animation: transitionHide both ease 1.5s;
+}
+
+.showScenery {
+  animation: transitionShow both ease 1.5s;
+}
+
+@keyframes transitionHide {
+  0% {
+    filter: brightness(100%);
+  }
+
+  100% {
+    filter: brightness(0%);
+  }
+}
+
+@keyframes transitionShow {
+  0% {
+    filter: brightness(0%);
+  }
+
+  100% {
+    filter: brightness(100%);
+  }
+}
+
+.showGift {
+  animation: appearAnimation both ease-in 0.5s;
+}
+
+.hideGift {
+  animation: disappearAnimation both ease-in 0.5s;
+}
+
+@keyframes appearAnimation {
+  0% {
+    scale: 0.5;
+    opacity: 0%;
+  }
+
+  100% {
+    scale: 1;
+    opacity: 100%;
+  }
+}
+
+@keyframes disappearAnimation {
+  0% {
+    scale: 1;
+    opacity: 100%;
+  }
+
+  100% {
+    scale: 0.5;
+    opacity: 0%;
+  }
+}
