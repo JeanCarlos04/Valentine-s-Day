@@ -138,7 +138,7 @@ function GameBoy() {
 
           <div className="w-62.5 h-50 border-3 border-pink-300 shadow rounded-md">
             <img
-              src="/imgs/HelloKittyLove.jpg"
+              src="/Valentin/imgs/HelloKittyLove.jpg"
               className="bg-cover h-full w-full"
             />
           </div>

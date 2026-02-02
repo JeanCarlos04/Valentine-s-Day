@@ -65,7 +65,7 @@ function Scenary3() {
 
   return (
     <>
-      <div className="bg-[url('/imgs/Scenery/Forest.jpg')] h-full relative max-h-85 pt-6 bg-cover">
+      <div className="bg-[url('/Valentin/imgs/Scenery/Forest.jpg')] h-full relative max-h-85 pt-6 bg-cover">
         {(pass === 2 || pass === 3) && (
           <div className="flex w-full gap-6 px-4 justify-between absolute top-[50%] translate-y-[-50%]">
             <div className="flex cursor-pointer justify-center flex-col items-center">
@@ -78,7 +78,7 @@ function Scenary3() {
                   }, 4000);
                 }}
               >
-                <img className="w-12" src="/imgs/Arrow.png" />
+                <img className="w-12" src="/Valentin/imgs/Arrow.png" />
               </button>
               <p className="text-white text-sm">Ir a la izquierda</p>
             </div>
@@ -89,7 +89,10 @@ function Scenary3() {
                   className="sidwwaysAnimation"
                   onClick={() => setSelectDirection("derecha")}
                 >
-                  <img className="w-12 rotate-180" src="/imgs/Arrow.png" />
+                  <img
+                    className="w-12 rotate-180"
+                    src="/Valentin/imgs/Arrow.png"
+                  />
                 </button>
                 <p className="text-white text-sm">Ir a la derecha</p>
               </div>
@@ -97,7 +100,7 @@ function Scenary3() {
           </div>
         )}
 
-        {selectDirection === "derecha" && <img src="/imgs/Bear.png" />}
+        {selectDirection === "derecha" && <img src="/Valentin/imgs/Bear.png" />}
 
         <Dialogues handleNextDialog={handleNextText} text={displayText} />
       </div>

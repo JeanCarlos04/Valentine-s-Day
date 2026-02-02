@@ -43,7 +43,7 @@ function Scenary4() {
 
   return (
     <>
-      <div className="bg-[url('/imgs/Scenery/Final.gif')] h-full self-center relative max-h-85 pt-6 bg-cover">
+      <div className="bg-[url('/Valentin/imgs/Scenery/Final.gif')] h-full self-center relative max-h-85 pt-6 bg-cover">
         <div className="flex gap-6 px-4 justify-center">
           {pass === 3 && (
             <img
@@ -51,7 +51,7 @@ function Scenary4() {
                 setPass((prev) => prev + 1);
               }}
               className={` w-36 movingAnimation cursor-pointer`}
-              src="/imgs/GiftBox.png"
+              src="/Valentin/imgs/GiftBox.png"
             />
           )}
           {pass === 4 && (
@@ -60,7 +60,7 @@ function Scenary4() {
                 setShowCarta(true);
               }}
               className={` ${pass === 4 ? "showGift" : "hideGift"} w-36 cursor-pointer`}
-              src="/imgs/Letter.png"
+              src="/Valentin/imgs/Letter.png"
             />
           )}
         </div>

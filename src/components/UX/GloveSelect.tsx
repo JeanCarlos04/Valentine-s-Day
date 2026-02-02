@@ -19,7 +19,7 @@ function GloveSelect({ show, direction }: GloveSelectType) {
       {show && (
         <img
           className={`${directionClass} MoveForwardAnimation size-20`}
-          src="/imgs/GloveSelect.png"
+          src="/Valentin/imgs/GloveSelect.png"
         />
       )}
     </>

@@ -54,7 +54,7 @@ function Scenary2() {
               <Options
                 setSelectOption={setSelectFlowersOption}
                 name="Girasoles"
-                img="/imgs/Flowers/Girasoles.png"
+                img="/Valentin/imgs/Flowers/Girasoles.png"
               />
             </div>
             <div
@@ -65,7 +65,7 @@ function Scenary2() {
               <Options
                 setSelectOption={setSelectFlowersOption}
                 name="Rosas"
-                img="/imgs/Flowers/Rosa.png"
+                img="/Valentin/imgs/Flowers/Rosa.png"
               />
             </div>
             <div
@@ -76,7 +76,7 @@ function Scenary2() {
               <Options
                 setSelectOption={setSelectFlowersOption}
                 name="Tulipanes"
-                img="/imgs/Flowers/Tulip.png"
+                img="/Valentin/imgs/Flowers/Tulip.png"
               />
             </div>
           </div>

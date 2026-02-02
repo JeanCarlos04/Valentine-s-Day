@@ -37,7 +37,7 @@ function Scenary1() {
 
   return (
     <>
-      <div className="bg-[url('/imgs/Scenery/LivingRoom.jpg')] h-full relative max-h-85 pt-6 bg-cover">
+      <div className="bg-[url('/Valentin/imgs/Scenery/LivingRoom.jpg')] h-full relative max-h-85 pt-6 bg-cover">
         {pass === 3 && (
           <div className="flex gap-6 px-4 justify-center">
             <div
@@ -48,7 +48,7 @@ function Scenary1() {
               <Options
                 setSelectOption={setSelectFoodOption}
                 name="Cake"
-                img="/imgs/Foods/Cake2.png"
+                img="/Valentin/imgs/Foods/Cake2.png"
               />
             </div>
             <div
@@ -59,7 +59,7 @@ function Scenary1() {
               <Options
                 setSelectOption={setSelectFoodOption}
                 name="Pasta"
-                img="/imgs/Foods/Pasta2.png"
+                img="/Valentin/imgs/Foods/Pasta2.png"
               />
             </div>
           </div>
